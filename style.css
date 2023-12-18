@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+header{
+    color: #506a85;
+    background-color: #f5f7fa;
+    font-size: 14px;
+    padding: 15px 0px;
+    font-weight: 600;
+}
+
+header a{
+    color: #506a85;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+header .left i{
+    margin-left: 15px;
+}
+
+header a:hover{
+    color: #00bc9c;
+    text-decoration: underline;
+}
+
+header i:hover{
+    color: #00bc9c;
+}
+
+.nav-sec{
+    padding: 25px 0px;
+}
+
+.nav-sec .nav-link{
+    color: #506a85;
+    margin: 0px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-sec .nav-link.active{
+    color: #506a85 !important;
+}
+
+.nav-sec .nav-link:hover{
+    color: #00bc9c !important;
+}
+
+.nav-sec button{
+    color: #506a85 !important;
+}
+
+.nav-sec button:hover{
+    color: #00bc9c !important;
+}
+
+.banner-sec{
+    width: 100%;
+    height: 100vh;
+    background: url(img/b5.png) center center no-repeat;
+    background-size: cover;
+}
+
+.banner-sec .c-hieght{
+    height: 100vh;
+}
+
+.get-in-touch .title, .banner-sec .title{
+    width: 50%;
+}
+
+.banner-sec h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.get-in-touch p, .banner-sec p{
+    color: #a3b1bf;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.get-in-touch a, .banner-sec a{
+    color: white;
+    background-color: #00bc9c;
+    border: 1px solid #00bc9c;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.get-in-touch a:hover, .banner-sec a:hover{
+    color: #00bc9c;
+    background: transparent;
+    border: 1px solid #00bc9c;
+}
+
+.who-we{
+    padding: 80px 0px 20px;
+}
+
+.who-we .row{
+    margin-bottom: 60px;
+}
+
+.who-we .title{
+    padding: 0px 360px;
+}
+
+.who-we .title h2{
+    color: #506a85;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.who-we .title p{
+    font-size: 16px;
+    color: #73879c;
+}
+
+.who-we img{
+    height: min-content;
+}
+
+.who-we .content{
+    padding: 0px 10px;
+}
+
+.who-we .content h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #506a85;
+}
+
+.who-we .content p{
+    font-size: 14px;
+    color: #73879c;
+}
+
+.portfolio{
+    background: #f2f5f7;
+    padding: 80px 0px;
+}
+
+.portfolio .title h2{
+    color: #506a85;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.portfolio .title p{
+    font-size: 16px;
+    color: #73879c;
+    margin-bottom: 60px;
+}
+
+.portfolio .cards{
+    height: 120;
+}
+
+.portfolio .card h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 15px;
+}
+
+.portfolio .owls{
+    margin-top: 80px;
+}
+
+.get-in-touch{
+    padding: 80px 0px;
+}
+
+.get-in-touch .title h2{
+    color: #506a85;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.footer-sec{
+    background-color: #2f4052;
+    padding: 80px 0px;
+}
+
+.footer-sec h4{
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-sec p{
+    font-size: 14px;
+    color: #a3b1bf;
+    margin-bottom: 16px;
+    line-height: 24px;
+    padding-right: 20px;
+}
+
+.footer-sec a{
+    color: #a3b1bf;
+    text-decoration: none;
+}
+
+.footer-sec a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-sec .col{
+    padding: 0px 0px 0px 10px;
+    margin-bottom: 8px;
+}
+
+.footer-sec .card{
+    border: none;
+    border-radius: 0;
+}
+
+.footer-sec .footer-form{
+    position: relative;
+}
+
+.footer-sec .form-control{
+    height: auto;
+    padding: 11px 4px;
+    background-color: #4e5c6c;
+    border: 1px solid #4e5c6c;
+    color: #828e99;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.footer-sec button{
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    background-color: #00bc9c;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid #00bc9c;
+}
+
+footer{
+    padding-top: 20px;
+    background: #283645;
+    font-size: 14px;
+    color: #616f7d;
+}
+
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .fa{
+    font-size: 5px;
+    vertical-align: middle;
+}
